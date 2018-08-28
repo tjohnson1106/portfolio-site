@@ -25,35 +25,35 @@ const DEFAULT_IMAGES = [
     id: "1",
     src: full01,
     thumbnail: thumb01,
-    caption: "Photo 1",
-    description: "Lorem ipsum dolor sit amet nisl sed nullam feugiat."
+    caption: "Bracket Factory Website",
+    description: "The Bracket Factory Company site built with React and Sass"
   },
   {
     id: "2",
     src: full02,
     thumbnail: thumb02,
-    caption: "Photo 2",
+    caption: "Mobile Project here",
     description: "Lorem ipsum dolor sit amet nisl sed nullam feugiat."
   },
   {
     id: "3",
     src: full03,
     thumbnail: thumb03,
-    caption: "Photo 3",
+    caption: "Mobile Project Here",
     description: "Lorem ipsum dolor sit amet nisl sed nullam feugiat."
   },
   {
     id: "4",
     src: full04,
     thumbnail: thumb04,
-    caption: "Photo 4",
+    caption: "Mobile Project Here",
     description: "Lorem ipsum dolor sit amet nisl sed nullam feugiat."
   },
   {
     id: "5",
     src: full05,
     thumbnail: thumb05,
-    caption: "Photo 5",
+    caption: "Side Project",
     description: "Lorem ipsum dolor sit amet nisl sed nullam feugiat."
   },
   {
@@ -124,24 +124,14 @@ class HomeIndex extends React.Component {
         <div id="main">
           <section id="one">
             <header className="major">
-              <h2
-              // style={{
-              //   color: '#FFFEEE',
-              // }}
-              >
-                Ipsum lorem dolor aliquam ante commodo
+              <h2>
+                Simple, functional and effective full-stack web, iOS and Android
+                development
                 <br />
-                magna sed accumsan arcu neque.
               </h2>
             </header>
 
-            <ul className="actions">
-              <li>
-                <a href="#" className="button">
-                  Learn More
-                </a>
-              </li>
-            </ul>
+            <ul className="actions" />
           </section>
 
           <section id="two">

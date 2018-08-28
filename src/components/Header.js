@@ -1,7 +1,7 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent } from "react";
 
-import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
+import Footer from "./Footer";
+import avatar from "../assets/images/avatar.jpg";
 
 class Header extends PureComponent {
   render() {
@@ -11,18 +11,25 @@ class Header extends PureComponent {
           <a href="#" className="image avatar">
             <img src={avatar} alt="" />
           </a>
-          <h1>
-            <strong>Thomas Johnson</strong>, full-stack web
+          <h1
+            style={{
+              color: "#FFFEEE"
+            }}
+          >
+            <strong>Thomas Johnson </strong>
             <br />
-            and mobile developer
+            Full-stack web and mobile developer
             <br />
-            based in New York City <a href="http://html5up.net">HTML5 UP</a>.
+            with a strong concentration in React Native, and React. Elixir
+            enthusiast.
+            <br />
+            Based in New York City.
           </h1>
         </div>
         <Footer />
       </header>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;
