@@ -1,6 +1,6 @@
-import React from "react";
+import React, { PureComponent } from "react";
 
-class Footer extends React.Component {
+class Footer extends PureComponent {
   render() {
     return (
       <div id="footer">
@@ -17,8 +17,8 @@ class Footer extends React.Component {
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-dribbble">
-                <span className="label">Dribbble</span>
+              <a href="#" className="icon fa-instagram">
+                <span className="label">Instagram</span>
               </a>
             </li>
             <li>

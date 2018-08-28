@@ -154,22 +154,24 @@ class HomeIndex extends React.Component {
               )}
             />
 
-            <ul className="actions">
-              <li>
-                <a href="#" className="button">
-                  Full Portfolio
-                </a>
-              </li>
-            </ul>
+            <ul className="actions" />
           </section>
 
           <section id="three">
-            <h2>Get In Touch</h2>
-            <p>
-              Accumsan pellentesque commodo blandit enim arcu non at amet id
-              arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi
-              lorem vulputate lorem neque lorem ipsum dolor.
-            </p>
+            <h2
+              style={{
+                color: "#eeefff"
+              }}
+            >
+              Get In Touch
+              <p>
+                <h5>
+                  Direct Message is coming soon please phone or email links to
+                  get in touch
+                </h5>
+              </p>
+            </h2>
+
             <div className="row">
               <div className="8u 12u$(small)">
                 <form method="post" action="#">
@@ -212,23 +214,20 @@ class HomeIndex extends React.Component {
                     <h3 className="icon fa-home">
                       <span className="label">Address</span>
                     </h3>
-                    1234 Somewhere Rd.
+                    New York City
                     <br />
-                    Nashville, TN 00000
-                    <br />
-                    United States
                   </li>
                   <li>
                     <h3 className="icon fa-mobile">
                       <span className="label">Phone</span>
                     </h3>
-                    000-000-0000
+                    646-776-1398
                   </li>
                   <li>
                     <h3 className="icon fa-envelope-o">
                       <span className="label">Email</span>
                     </h3>
-                    <a href="#">hello@untitled.tld</a>
+                    <a href="#">tjohnson1106@gmail.com</a>
                   </li>
                 </ul>
               </div>
