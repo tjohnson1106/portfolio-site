@@ -12,6 +12,7 @@ import thumb03 from "../assets/images/thumbs/03.jpg";
 import thumb04 from "../assets/images/thumbs/04.jpg";
 import thumb05 from "../assets/images/thumbs/05.jpg";
 import thumb06 from "../assets/images/thumbs/06.jpg";
+import feedThumb02 from "../assets/images/thumbs/feedThumb02.png";
 
 import full01 from "../assets/images/fulls/01.jpg";
 import full02 from "../assets/images/fulls/02.jpg";
@@ -19,6 +20,7 @@ import full03 from "../assets/images/fulls/03.jpg";
 import full04 from "../assets/images/fulls/04.jpg";
 import full05 from "../assets/images/fulls/05.jpg";
 import full06 from "../assets/images/fulls/06.jpg";
+import fullFeed02 from "../assets/images/fulls/fullFeed02.png";
 
 const DEFAULT_IMAGES = [
   {
@@ -30,8 +32,8 @@ const DEFAULT_IMAGES = [
   },
   {
     id: "2",
-    src: full02,
-    thumbnail: thumb02,
+    src: fullFeed02,
+    thumbnail: feedThumb02,
     caption: "Mobile Project here",
     description: "Lorem ipsum dolor sit amet nisl sed nullam feugiat."
   },
@@ -221,13 +223,13 @@ class HomeIndex extends React.Component {
                     <h3 className="icon fa-mobile">
                       <span className="label">Phone</span>
                     </h3>
-                    646-776-1398
+                    <a href="tel:+1-646-776-1398">+1 (646) 776-1398</a>
                   </li>
                   <li>
                     <h3 className="icon fa-envelope-o">
                       <span className="label">Email</span>
                     </h3>
-                    <a href="#">tjohnson1106@gmail.com</a>
+                    <a href="tjohnson1106@gmail.com">Email</a>
                   </li>
                 </ul>
               </div>
