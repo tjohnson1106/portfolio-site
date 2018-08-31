@@ -8,7 +8,7 @@ class Header extends PureComponent {
     return (
       <header id="header">
         <div className="inner">
-          <a href="#" className="image avatar">
+          <a href="https://github.com/tjohnson1106" className="image avatar">
             <img src={avatar} alt="" />
           </a>
           <h1
@@ -20,7 +20,7 @@ class Header extends PureComponent {
             <br />
             Full-stack web and mobile developer
             <br />
-            with a strong concentration in React Native, and React. Elixir
+            with a strong concentration in React Native and React. Elixir
             enthusiast.
             <br />
             Based in New York City.

@@ -7,22 +7,31 @@ class Footer extends PureComponent {
         <div className="inner">
           <ul className="icons">
             <li>
-              <a href="#" className="icon fa-twitter">
+              <a
+                href="https://twitter.com/MediaBrackets"
+                className="icon fa-twitter"
+              >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-github">
+              <a
+                href="https://github.com/tjohnson1106"
+                className="icon fa-github"
+              >
                 <span className="label">Github</span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-instagram">
+              <a
+                href="https://www.instagram.com/bracketfactory/"
+                className="icon fa-instagram"
+              >
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-envelope-o">
+              <a href="tjohnson1106@gmail.com" className="icon fa-envelope-o">
                 <span className="label">Email</span>
               </a>
             </li>
